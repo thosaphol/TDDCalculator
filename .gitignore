@@ -1,3 +1,4 @@
 WebApi/obj/
-TestCalculator/obj
+TestCalculator/obj/
 Calculator/obj/
+TestCalculator/bin/

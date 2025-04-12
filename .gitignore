@@ -1,9 +1,9 @@
-Calculator\bin
-Calculator\obj
-Calculator\.vs\
+Calculator/bin
+Calculator/obj
+Calculator/.vs
 
-TestCalculator\bin
-TestCalculator\obj
+TestCalculator/bin
+TestCalculator/obj
 
-WebApi\bin
-WebApi\obj
+WebApi/bin
+WebApi/obj

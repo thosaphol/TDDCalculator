@@ -1,7 +1,6 @@
 image: mcr.microsoft.com/dotnet/aspnet:8.0
 
 stages:
-  - debug
   - restore
   - build
   - test
@@ -17,9 +16,6 @@ before_script:
   - export PATH=$PATH:/usr/share/dotnet
   - echo "$CI_REPOSITORY_URL"
 
-debug:
-  script:
-    - echo "$CI_REPOSITORY_URL"
 
 
 restore:

@@ -9,6 +9,8 @@ stages:
 
 variables:
   DOTNET_CLI_HOME: "/tmp"
+  GIT_STRATEGY: clone
+  CI_REPOSITORY_URL: $CI_REPO_URL
 
 before_script:
   - echo "Setting up .NET 8 SDK"

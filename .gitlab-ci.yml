@@ -12,7 +12,7 @@ variables:
   CI_REPOSITORY_URL: $CI_REPO_URL
 
 before_script:
-  - echo "Setting up .NET 8 SDK 555599999"
+  - echo "Setting up .NET 8 SDK "
   - export PATH=$PATH:/usr/share/dotnet
 
 

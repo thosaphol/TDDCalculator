@@ -8,6 +8,7 @@ stages:
 
 variables:
   DOTNET_CLI_HOME: "/tmp"
+  CI_REPOSITORY_URL: "http://gitlab/estdev/tddcalculator.git"
 
 before_script:
   - echo "Setting up .NET 8 SDK"

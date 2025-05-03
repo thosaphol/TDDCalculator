@@ -13,6 +13,7 @@ variables:
 before_script:
   - echo "Setting up .NET 8 SDK"
   - export PATH=$PATH:/usr/share/dotnet
+  - echo "$CI_REPOSITORY_URL"
 
 restore:
   stage: restore

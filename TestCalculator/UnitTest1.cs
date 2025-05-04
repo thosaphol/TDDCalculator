@@ -7,7 +7,7 @@ namespace TestCalculator
         [Theory]
         [InlineData("Test Insert 1", 1, 2, 3)]
         [InlineData("Test Insert 2", 4, 9, 13)]
-        [InlineData("Test Insert 3", 3, 5, 7)]
+        [InlineData("Test Insert 3", 3, 4, 7)]
         public void Test1(string testcasename, int left, int right, int expect)
         {
             var calculator = new Calculator();

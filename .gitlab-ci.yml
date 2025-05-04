@@ -31,7 +31,9 @@ build:
 test:
   stage: test
   script:
-    - dotnet test --configuration Release --no-build --verbosity normal
+    - dotnet restore
+    - dotnet build --configuration Release
+    - dotnet test TestCalculator/TestCalculator.csproj --configuration Release --no-build --logger:trx
 
 publish:
   stage: publish

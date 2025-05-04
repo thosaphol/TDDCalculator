@@ -20,6 +20,7 @@ before_script:
 restore:
   stage: restore
   script:
+    - ls -la
     - dotnet restore
 
 build:
